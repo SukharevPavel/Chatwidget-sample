@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chatwidget Sample</string>
+    <string name="edit_text_hint">Введите Request Id</string>
+    <string name="button_text">Открыть чат</string>
+    <string name="password_text_hint">Введите пароль</string>
+    <string name="login_text_hint">Введите логин</string>
+    <string name="login_button_text">Получить session id</string>
+    <string name="edit_text_session_id">Session Id</string>
+</resources>

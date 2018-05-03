@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/main_login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pupkin@test.ru"
+        android:hint="@string/login_text_hint"/>
+
+    <EditText
+        android:id="@+id/main_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="111111"
+        android:hint="@string/password_text_hint"/>
+
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"/>
+
+    <EditText
+        android:id="@+id/main_session_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_session_id"/>
+
+    <EditText
+        android:id="@+id/main_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_hint"/>
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"/>
+
+</LinearLayout>
