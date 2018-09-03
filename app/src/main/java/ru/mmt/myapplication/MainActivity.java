@@ -50,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i(TAG, "clicked");
                 ChatWidgetInstance.getInstance(getApplicationContext())
-                        .start(sessionText.getText().toString(), editText.getText().toString(), new OnChatLoadListener() {
+                        .setStyle(R.style.chatWidgetStyle);
+                ChatWidgetInstance
+                        .getInstance(getApplicationContext()).start(sessionText.getText().toString(), editText.getText().toString(), new OnChatLoadListener() {
                             @Override
                             public void onSuccess() {
                                 Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_SHORT).show();

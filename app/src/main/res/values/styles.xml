@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="chatWidgetStyle">
+        <item name="colorPrimary">#FFAA00</item>
+        <item name="colorPrimaryDark">#DD8800</item>
+        <item name="colorAccent">#4400FF</item>
+    </style>
+
 </resources>
